@@ -1,11 +1,11 @@
 {
   "scripts": [
     {
-      "name": "python_install",
+      "name": "Teste_Global_Ping",
       "version": "1.0",
-      "targets": ["*"],
+      "path": "scripts/test/hello.ps1",
       "type": "powershell",
-      "path": "SCRIPTS/GLOBAL/python_install.ps1"
+      "targets": ["*"]
     }
   ]
 }
