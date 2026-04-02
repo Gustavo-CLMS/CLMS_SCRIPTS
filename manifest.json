@@ -1,0 +1,11 @@
+{
+  "scripts": [
+    {
+      "name": "python_install",
+      "version": "1.0",
+      "targets": ["*"],
+      "type": "powershell",
+      "path": "SCRIPTS/GLOBAL/python_install.ps1"
+    }
+  ]
+}
