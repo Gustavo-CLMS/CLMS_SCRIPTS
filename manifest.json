@@ -3,7 +3,7 @@
     {
       "name": "Teste_Global_Ping",
       "version": "1.0",
-      "path": "scripts/test/hello.ps1",
+      "path": "SCRIPTS/TEST/hello.ps1",
       "type": "powershell",
       "targets": ["*"]
     }
