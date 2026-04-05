@@ -10,14 +10,14 @@
     {
       "name": "Script_Setor_Um",
       "version": "1.0",
-      "path": "SCRIPTS\\LAB1\\lab_um.ps1",
+      "path": "SCRIPTS\\TEST\\LAB1\\lab_um.ps1",
       "type": "powershell",
       "targets": ["TEST:LAB1"]
     },
     {
       "name": "Script_Setor_Dois",
       "version": "1.0",
-      "path": "SCRIPTS\\LAB2\\lab_dois.ps1",
+      "path": "SCRIPTS\\TEST\\LAB2\\lab_dois.ps1",
       "type": "powershell",
       "targets": ["TEST:LAB2"]
     }
