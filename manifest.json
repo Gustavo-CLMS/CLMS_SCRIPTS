@@ -2,8 +2,8 @@
   "scripts": [
     {
       "name": "Teste_Global_Ping",
-      "version": "1.0",
-      "path": "SCRIPTS/TEST/hello.ps1",
+      "version": "1.1",
+      "path": "SCRIPTS\\GLOBAL\\hello.ps1",
       "type": "powershell",
       "targets": ["*"]
     }
