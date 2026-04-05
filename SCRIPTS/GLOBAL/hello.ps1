@@ -1,4 +1,10 @@
 $logFile = "C:\CLMS\Github\test_log.txt"
 $date = Get-Date -Format "dd/MM/yyyy HH:mm:ss"
-"Script executado com sucesso em $date" | Out-File $logFile -Append
-Write-Host "Hello World da CLMS!"
+
+# Lê o DNA para saber quem está logando
+$machine = Get-Content "C:\CLMS\Github\machine.json" | ConvertFrom-Json
+
+$mensagem = "[$date] CLIENTE: $($machine.cliente) | SETOR: $($machine.setor) | Agente instalado e testado com sucesso!"
+
+$mensagem | Out-File $logFile -Append -Encoding utf8
+Write-Host $mensagem
