@@ -1,4 +1,4 @@
-$logFile = "C:\CLMS\Github\test_log.txt"
+$logFile = "C:\CLMS\Github\test_global.txt"
 $date = Get-Date -Format "dd/MM/yyyy HH:mm:ss"
 
 # Lê o DNA para saber quem está logando
